@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('.gallery').mauGallery({
         columns: {
             xs: 1,
@@ -12,4 +12,8 @@ $(document).ready(function() {
         showTags: true,
         tagsPosition: 'top'
     });
+});
+
+$(document).ready(function () {
+    $('link[rel="stylesheet"]').removeAttr('disabled');
 });
