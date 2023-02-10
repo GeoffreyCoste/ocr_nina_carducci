@@ -41,20 +41,20 @@
 	<meta property="business:hours:day" content="FRIDAY">
 	<meta property="business:hours:start" content="10:00">
 	<meta property="business:hours:end" content="19:00">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="./assets/style.css">
+	
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="preload" as="style">
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js"></script>
-	<script defer src="./assets/scripts.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="preload" as="style" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="preload" href="./assets/style.min.css" as="style">
+	<link rel="stylesheet" href="./assets/style.min.css">
 	<link rel="apple-touch-icon" href="./assets/images/apple_touch_icon/touch-icon-app-store.png">
 	<link rel="apple-touch-icon" sizes="58x58" href="./assets/images/apple_touch_icon/touch-icon-iphone.png">
 	<link rel="apple-touch-icon" sizes="87x87" href="./assets/apple_touch_icon/touch-icon-ipad.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="./assets/apple_touch_icon/touch-icon-iphone4.png">
-	<link rel="icon" href="./assets/favicon.ico">
+	<link rel="icon" href="./assets/images/favicon.ico">
 </head>
 <body>
 <header>
@@ -147,10 +147,11 @@
 			<picture>
 				<source type="image/webp" srcset="./assets/images/nina/nina_carducci_photographer.webp">
 				<img 
+					width="450px"
+					height="450px"
 					src="./assets/images/nina/nina_carducci_photographer.jpg"
 					alt="Autoportrait en extérieur de la photographe professionnelle Nina Carducci"
 					title="Nina Carducci - Photographer"
-					loading="lazy"
 				>
 			</picture>
 		</div>
@@ -170,6 +171,7 @@
 					height="100%"
 					data-gallery-tag="Concert" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/concerts/aaron-paul-concert-show.webp"
 					src="./assets/images/gallery/concerts/aaron-paul-concert-show.jpg"
 					alt="Photo des mains levées du public et de la scène lors d'un concert"
 					title="Aaron Paul - Public lors d'un concert"
@@ -182,6 +184,7 @@
 					height="100%"
 					data-gallery-tag="Entreprises" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/entreprise/ali-morshedlou-business-man-arms-crossed.webp"
 					src="./assets/images/gallery/entreprise/ali-morshedlou-business-man-arms-crossed.jpg"
 					alt="Photo de face d'un homme d'affaires bras croisés dans la rue"
 					title="Ali Morshedlou - Hommes d'affaires bras croisés"
@@ -194,6 +197,7 @@
 					height="100%"
 					data-gallery-tag="Entreprises" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/entreprise/jason-goodman-woman-employee-smiling.webp"
 					src="./assets/images/gallery/entreprise/jason-goodman-woman-employee-smiling.jpg"
 					alt="Photo d'une employée souriante et de sa collègue de dos floutée au premier plan"
 					title="Jason Goodman - Employée souriante"
@@ -206,6 +210,7 @@
 					height="100%"
 					data-gallery-tag="Mariages" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/mariage/hannah-busing-people-touching-hands.webp"
 					src="./assets/images/gallery/mariage/hannah-busing-people-touching-hands.jpg"
 					alt="Photo en gros plan de mains se touchant du bout des doigts"
 					title="Hannah Busing - Mains se touchant du bout des doigts"
@@ -218,6 +223,7 @@
 					height="100%"
 					data-gallery-tag="Portrait" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/portraits/ade-tunji-black-man-eyes-closed.webp"
 					src="./assets/images/gallery/portraits/ade-tunji-black-man-eyes-closed.jpg"
 					alt="Portrait d'un homme noir les yeux fermés"
 					title="Ade Tunji - Homme noir les yeux fermés"
@@ -230,6 +236,7 @@
 					height="100%"
 					data-gallery-tag="Mariages" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/mariage/jakob-owens-married-couple.webp"
 					src="./assets/images/gallery/mariage/jakob-owens-married-couple.jpg"
 					alt="Photo d'un couple de mariés se souriant devant un palmier en arrière plan"
 					title="Jakob Owens - Couple de mariés se souriant"
@@ -242,6 +249,7 @@
 					height="100%"
 					data-gallery-tag="Portrait" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/portraits/nino-van-prattenburg-woman-touching-hairs.webp"
 					src="./assets/images/gallery/portraits/nino-van-prattenburg-woman-touching-hairs.jpg"
 					alt="Photo à travers un grillage d'une jeune femme à lunettes touchant ses cheveux"
 					title="Nino Van Prattenburg - Jeune femme à lunettes touchant ses cheveux"
@@ -254,6 +262,7 @@
 					height="100%"
 					data-gallery-tag="Concert" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/concerts/austin-neill-concert-singer.webp"
 					src="./assets/images/gallery/concerts/austin-neill-concert-singer.jpg"
 					alt="Phot en contre-plongée d'un chanteur mains levée lors d'un concert"
 					title="Austin Neill- Concert singer"
@@ -266,6 +275,7 @@
 					height="100%"
 					data-gallery-tag="Entreprises" 
 					class="gallery-item" 
+					srcset="./assets/images/gallery/entreprise/mateus-campos-felipe-woman-lawyer-smiling.webp"
 					src="./assets/images/gallery/entreprise/mateus-campos-felipe-woman-lawyer-smiling.jpg"
 					alt="Photo d'une jeune femme juriste assise devant un ordinateur avec un large sourire"
 					title="Mateus Campos Felipe - Souriante jeune femme juriste"
@@ -381,5 +391,10 @@
 		</div>
 	</div>
 </footer>
+
+<script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script defer src="./assets/maugallery.min.js"></script>
+<script defer src="./assets/scripts.js"></script>
 </body>
 </html>
