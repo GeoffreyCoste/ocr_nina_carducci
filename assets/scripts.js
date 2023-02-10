@@ -13,7 +13,3 @@ $(document).ready(function () {
         tagsPosition: 'top'
     });
 });
-
-$(document).ready(function () {
-    $('link[rel="stylesheet"]').removeAttr('disabled');
-});
