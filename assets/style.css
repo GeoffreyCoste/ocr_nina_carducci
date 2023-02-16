@@ -38,7 +38,7 @@ button.mg-next:focus-visible {
 }
 
 button.mg-prev:focus-visible {
-	box-shadow: -3px 3px 0 0 #000;	
+	box-shadow: -3px 3px 0 0 #000;
 }
 
 
@@ -117,7 +117,6 @@ main {
 
 #about {
 	width: 100vw;
-	max-height: 870px;
 	display: flex;
 	background-color: #F6D2B8;
 	padding-inline: 100px;
